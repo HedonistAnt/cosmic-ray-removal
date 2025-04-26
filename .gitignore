@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+myenv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Python environment files
+*.egg-info/
+.eggs/
+
+# Test & coverage files
+htmlcov/
+.tox/
+coverage.*
+.cache
+nosetests.xml
+pytest_cache/
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Plots and data outputs (optional)
+*.png
+*.csv
+*.tsv
+*.pdf
+
+# Cleaned spectra if you don't want to track outputs
+*_cleaned.txt
+*_plot.png
+
+# Ignore Python virtual environments
+myenv/
+
+# Ignore output directories
+spectra_cleaned/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
